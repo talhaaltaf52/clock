@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Analog & Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+
+            <div class="circle" id="sc" style="--clr:#04fc43"><i></i></div>
+            <div class="circle circle2" id="mn" style="--clr:#fee800"><i></i></div>
+            <div class="circle circle3" id="hr" style="--clr:#ff2972"><i></i></div>
+
+            <span style="--i:1"><b style="--clr:#fee800">1</b></span>
+            <span style="--i:2"><b style="--clr:#04fc43">2</b></span>
+            <span style="--i:3"><b style="--clr:#ff2972">3</b></span>
+            <span style="--i:4"><b style="--clr:#fee800">4</b></span>
+            <span style="--i:5"><b style="--clr:#04fc43">5</b></span>
+            <span style="--i:6"><b style="--clr:#ff2972">6</b></span>
+            <span style="--i:7"><b style="--clr:#fee800">7</b></span>
+            <span style="--i:8"><b style="--clr:#04fc43">8</b></span>
+            <span style="--i:9"><b style="--clr:#ff2972">9</b></span>
+            <span style="--i:10"><b style="--clr:#fee800">10</b></span>
+            <span style="--i:11"><b style="--clr:#04fc43">11</b></span>
+            <span style="--i:12"><b style="--clr:#ff2972">12</b></span>
+        </div>
+        
+        <!-- Digital Clock -->
+
+        <div id="time">
+            <div id="hours" style="--clr:#ff2972">00</div>
+            <div id="minutes" style="--clr:#fee800">00</div>
+            <div id="seconds" style="--clr:#04fc43">00</div>
+            <div id="ampm">AM</div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
